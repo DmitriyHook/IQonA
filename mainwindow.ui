@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IQonA</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0" colspan="2">
+     <layout class="QGridLayout" name="iqVisualizers_gridLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>Количество каналов</string>
+     </property>
+     <addaction name="countChannal_1_action"/>
+     <addaction name="countChannal_2_action"/>
+     <addaction name="countChannal_3_action"/>
+     <addaction name="countChannal_4_action"/>
+    </widget>
+    <addaction name="menu_2"/>
+    <addaction name="exit_action"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="exit_action">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="nvl_action">
+   <property name="text">
+    <string>NVL</string>
+   </property>
+  </action>
+  <action name="countChannal_1_action">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="countChannal_2_action">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="countChannal_3_action">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="countChannal_4_action">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

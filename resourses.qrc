@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/A.svg</file>
+        <file>Icons/F.svg</file>
+        <file>Icons/Spectr.svg</file>
+        <file>Icons/Star.svg</file>
+        <file>Icons/Rescale.svg</file>
+        <file>Icons/Settings.svg</file>
+        <file>Icons/Waterfall.svg</file>
+        <file>Icons/play.svg</file>
+        <file>Icons/stop.svg</file>
+    </qresource>
+</RCC>
